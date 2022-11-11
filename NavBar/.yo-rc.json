@@ -1,0 +1,17 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "navbar",
+    "libraryId": "b68ddba2-912a-4884-a05a-7f2efdc32164",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "navbar",
+    "solutionShortDescription": "navbar description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}

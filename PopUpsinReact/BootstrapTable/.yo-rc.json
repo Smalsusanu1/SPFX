@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "bootstrap-table",
+    "libraryId": "66befcc4-ca1c-471d-b018-f09702147485",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "bootstrap-table",
+    "solutionShortDescription": "bootstrap-table description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

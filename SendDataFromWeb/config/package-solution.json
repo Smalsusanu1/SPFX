@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "send-data-from-web-client-side-solution",
+    "id": "ee8764e9-4993-4a22-b748-99ba83d8affb",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "send-data-from-web description"
+      },
+      "longDescription": {
+        "default": "send-data-from-web description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "send-data-from-web Feature",
+        "description": "The feature that activates elements of the send-data-from-web solution.",
+        "id": "d4d89b93-021c-470b-84de-d1b3b7d7c667",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/send-data-from-web.sppkg"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "text-editor",
+    "libraryId": "cb4e7b42-e462-408b-8ae5-e951eab4dc85",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "text-editor",
+    "solutionShortDescription": "text-editor description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "portfolio-profile",
+    "libraryId": "5b330fbc-e754-4757-8786-49b2c4ab4a48",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "portfolio-profile",
+    "solutionShortDescription": "portfolio-profile description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

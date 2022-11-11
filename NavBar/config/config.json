@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "navbart-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/navbart/NavbartApplicationCustomizer.js",
+          "manifest": "./src/extensions/navbart/NavbartApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "NavbartApplicationCustomizerStrings": "lib/extensions/navbart/loc/{locale}.js"
+  }
+}

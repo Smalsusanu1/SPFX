@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "portfolio-profiles-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/portfolioProfiles/PortfolioProfilesWebPart.js",
+          "manifest": "./src/webparts/portfolioProfiles/PortfolioProfilesWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PortfolioProfilesWebPartStrings": "lib/webparts/portfolioProfiles/loc/{locale}.js"
+  }
+}

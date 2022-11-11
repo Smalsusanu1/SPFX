@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "tabs",
+    "libraryId": "d430b769-2cb0-4334-8ec3-73d8b2fb541b",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "tabs",
+    "solutionShortDescription": "tabs description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

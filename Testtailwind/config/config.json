@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "testtaiil-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/testtaiil/TesttaiilWebPart.js",
+          "manifest": "./src/webparts/testtaiil/TesttaiilWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TesttaiilWebPartStrings": "lib/webparts/testtaiil/loc/{locale}.js"
+  }
+}

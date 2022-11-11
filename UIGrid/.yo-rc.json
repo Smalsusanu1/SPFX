@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "ui-grid",
+    "libraryId": "67d5b418-60ac-4ecf-a5dc-fa6819025bb8",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "ui-grid",
+    "solutionShortDescription": "ui-grid description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

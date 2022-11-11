@@ -1,0 +1,14 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-extension-manifest.schema.json",
+
+  "id": "4fb245aa-a32c-4d4f-8bef-99611822f1f8",
+  "alias": "NavbartApplicationCustomizer",
+  "componentType": "Extension",
+  "extensionType": "ApplicationCustomizer",
+
+  
+  "version": "*",
+  "manifestVersion": 2,
+
+ "requiresCustomScript": false
+}

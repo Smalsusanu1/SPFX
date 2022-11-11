@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "tabs-client-side-solution",
+    "id": "d430b769-2cb0-4334-8ec3-73d8b2fb541b",
+    "version": "1.1.2.6",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "tabs description"
+      },
+      "longDescription": {
+        "default": "tabs description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "tabs Feature",
+        "description": "The feature that activates elements of the tabs solution.",
+        "id": "4668a66c-883c-454f-a626-b7a720153543",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/tabs.sppkg"
+  }
+}

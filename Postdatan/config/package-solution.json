@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "postdatan-client-side-solution",
+    "id": "7f5217ec-c7e2-4b12-a7fb-d39b4b968621",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "postdatan description"
+      },
+      "longDescription": {
+        "default": "postdatan description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "postdatan Feature",
+        "description": "The feature that activates elements of the postdatan solution.",
+        "id": "58f4a9ae-73f3-487e-9e8f-409e65f32a45",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/postdatan.sppkg"
+  }
+}

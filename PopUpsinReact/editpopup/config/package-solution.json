@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "editpopup-client-side-solution",
+    "id": "07f6984b-ff01-44a0-a4c9-42e95fbdc18c",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "editpopup description"
+      },
+      "longDescription": {
+        "default": "editpopup description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "editpopup Feature",
+        "description": "The feature that activates elements of the editpopup solution.",
+        "id": "7dd88633-e9b8-42a7-87d8-25dcae1ea2fd",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/editpopup.sppkg"
+  }
+}

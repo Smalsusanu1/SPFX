@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "globalsearch-client-side-solution",
+    "id": "ae1cf6ae-bd4d-46f7-b8c1-57c59f3808e8",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "globalsearch description"
+      },
+      "longDescription": {
+        "default": "globalsearch description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "globalsearch Feature",
+        "description": "The feature that activates elements of the globalsearch solution.",
+        "id": "b029f201-19da-42c7-b0a2-a82652ce4331",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/globalsearch.sppkg"
+  }
+}

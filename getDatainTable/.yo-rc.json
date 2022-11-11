@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "get-data-in-table",
+    "libraryId": "fe1d7c24-f01c-4460-8b7f-6e7a4e77b7db",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "getDataInTable",
+    "solutionShortDescription": "getDataInTable description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

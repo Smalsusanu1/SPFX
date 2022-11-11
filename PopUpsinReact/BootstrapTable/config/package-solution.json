@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "bootstrap-table-client-side-solution",
+    "id": "66befcc4-ca1c-471d-b018-f09702147485",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "bootstrap-table description"
+      },
+      "longDescription": {
+        "default": "bootstrap-table description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "bootstrap-table Feature",
+        "description": "The feature that activates elements of the bootstrap-table solution.",
+        "id": "7705e3b4-5bd2-45a8-bf5c-f8505a69e4fc",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/bootstrap-table.sppkg"
+  }
+}

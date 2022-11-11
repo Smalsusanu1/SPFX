@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "listitems",
+    "libraryId": "1564a89c-a05c-488c-9afd-b3a4618a52ae",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "Listitems",
+    "solutionShortDescription": "Listitems description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

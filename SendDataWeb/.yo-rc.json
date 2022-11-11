@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "version": "1.15.2",
+    "libraryName": "send-data-web",
+    "libraryId": "d13d660e-b705-4edd-b893-cc8c631d1fed",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "send-data-web",
+    "solutionShortDescription": "send-data-web description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

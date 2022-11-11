@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "postdatan-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/postdatan/PostdatanWebPart.js",
+          "manifest": "./src/webparts/postdatan/PostdatanWebPart.manifest.json"
+        }
+      ]
+    },
+    "postdatas-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/postdatas/PostdatasWebPart.js",
+          "manifest": "./src/webparts/postdatas/PostdatasWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PostdatanWebPartStrings": "lib/webparts/postdatan/loc/{locale}.js",
+    "PostdatasWebPartStrings": "lib/webparts/postdatas/loc/{locale}.js"
+  }
+}

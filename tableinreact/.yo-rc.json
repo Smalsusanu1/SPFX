@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "tableinreact",
+    "libraryId": "60635331-9efd-4bb5-89cc-8ebd17450031",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "tableinreact",
+    "solutionShortDescription": "tableinreact description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

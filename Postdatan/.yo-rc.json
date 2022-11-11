@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "version": "1.15.2",
+    "libraryName": "postdatan",
+    "libraryId": "7f5217ec-c7e2-4b12-a7fb-d39b4b968621",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "postdatan",
+    "solutionShortDescription": "postdatan description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

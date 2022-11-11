@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "next-global-search-client-side-solution",
+    "id": "3850b798-8a29-4d68-b727-c75a378a075a",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "next-global-search description"
+      },
+      "longDescription": {
+        "default": "next-global-search description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "next-global-search Feature",
+        "description": "The feature that activates elements of the next-global-search solution.",
+        "id": "791ad9c1-23b0-4f5d-aeca-a1dac83e64bb",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/next-global-search.sppkg"
+  }
+}

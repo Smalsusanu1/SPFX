@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "version": "1.15.2",
+    "libraryName": "next-global-search",
+    "libraryId": "3850b798-8a29-4d68-b727-c75a378a075a",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "next-global-search",
+    "solutionShortDescription": "next-global-search description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

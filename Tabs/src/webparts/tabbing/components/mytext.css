@@ -1,0 +1,10 @@
+.DraftEditor-root {
+    height: 200px;
+    overflow-y: auto;
+    background-color: ghostwhite;
+}
+
+.DraftEditor-editorContainer,
+.public-DraftEditor-content {
+    height: 100%;
+}

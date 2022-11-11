@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "perform-operations",
+    "libraryId": "97e875af-73b8-44dc-9681-60cba2fce48b",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "PerformOperations",
+    "solutionShortDescription": "PerformOperations description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

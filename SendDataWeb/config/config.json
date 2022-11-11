@@ -1,0 +1,32 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "data-receiver-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/dataReceiverWp/DataReceiverWpWebPart.js",
+          "manifest": "./src/webparts/dataReceiverWp/DataReceiverWpWebPart.manifest.json"
+        }
+      ]
+    },
+    "data-sender-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/dataSenderWp/DataSenderWpWebPart.js",
+          "manifest": "./src/webparts/dataSenderWp/DataSenderWpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": {
+      "path": "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js",
+      "globalName": "jQuery"
+   }
+  },
+  "localizedResources": {
+    "DataReceiverWpWebPartStrings": "lib/webparts/dataReceiverWp/loc/{locale}.js",
+    "DataSenderWpWebPartStrings": "lib/webparts/dataSenderWp/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "text-editor-client-side-solution",
+    "id": "cb4e7b42-e462-408b-8ae5-e951eab4dc85",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "text-editor description"
+      },
+      "longDescription": {
+        "default": "text-editor description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "text-editor Feature",
+        "description": "The feature that activates elements of the text-editor solution.",
+        "id": "74a329aa-22dc-476f-8e68-d60c6c4e4f18",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/text-editor.sppkg"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "editpopup",
+    "libraryId": "07f6984b-ff01-44a0-a4c9-42e95fbdc18c",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "editpopup",
+    "solutionShortDescription": "editpopup description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

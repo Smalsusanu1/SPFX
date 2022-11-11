@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "reactpopups-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/reactpopups/ReactpopupsWebPart.js",
+          "manifest": "./src/webparts/reactpopups/ReactpopupsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ReactpopupsWebPartStrings": "lib/webparts/reactpopups/loc/{locale}.js"
+  }
+}

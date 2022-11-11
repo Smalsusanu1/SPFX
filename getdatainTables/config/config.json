@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "data-into-bs-table-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/dataIntoBsTable/DataIntoBsTableWebPart.js",
+          "manifest": "./src/webparts/dataIntoBsTable/DataIntoBsTableWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "DataIntoBsTableWebPartStrings": "lib/webparts/dataIntoBsTable/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

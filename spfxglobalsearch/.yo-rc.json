@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "globalsearch",
+    "libraryId": "ae1cf6ae-bd4d-46f7-b8c1-57c59f3808e8",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "globalsearch",
+    "solutionShortDescription": "globalsearch description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

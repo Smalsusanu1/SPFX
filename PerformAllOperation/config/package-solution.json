@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "perform-operations-client-side-solution",
+    "id": "97e875af-73b8-44dc-9681-60cba2fce48b",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "PerformOperations description"
+      },
+      "longDescription": {
+        "default": "PerformOperations description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "perform-operations Feature",
+        "description": "The feature that activates elements of the perform-operations solution.",
+        "id": "aa127bfd-53a7-49a1-8665-a8471741ad12",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/perform-operations.sppkg"
+  }
+}

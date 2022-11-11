@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="Navbart"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="4fb245aa-a32c-4d4f-8bef-99611822f1f8"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>

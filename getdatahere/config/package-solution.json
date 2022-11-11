@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "getdatahere-client-side-solution",
+    "id": "c5c7a776-90cc-43c9-88f8-4ae4ea484e46",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "getdatahere description"
+      },
+      "longDescription": {
+        "default": "getdatahere description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "getdatahere Feature",
+        "description": "The feature that activates elements of the getdatahere solution.",
+        "id": "22befd82-4f53-48c8-9016-a69ad0d9052f",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/getdatahere.sppkg"
+  }
+}

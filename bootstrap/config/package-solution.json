@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "bootstrapfirst-client-side-solution",
+    "id": "e20fe1a3-46a7-4ad3-a19c-a093617259ac",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "bootstrapfirst description"
+      },
+      "longDescription": {
+        "default": "bootstrapfirst description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "bootstrapfirst Feature",
+        "description": "The feature that activates elements of the bootstrapfirst solution.",
+        "id": "ff0a8484-0690-4d56-a248-1af2ca0391ba",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/bootstrapfirst.sppkg"
+  }
+}

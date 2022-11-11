@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "react-datatable-client-side-solution",
+    "id": "1a0839e8-90cf-42e6-8e2a-bf75bf8ba9ba",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "ReactDatatable description"
+      },
+      "longDescription": {
+        "default": "ReactDatatable description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "react-datatable Feature",
+        "description": "The feature that activates elements of the react-datatable solution.",
+        "id": "dbc9d4ed-ea67-4eba-b8d1-13232c9e7b20",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/react-datatable.sppkg"
+  }
+}

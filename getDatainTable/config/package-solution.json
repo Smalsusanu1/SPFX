@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "get-data-in-table-client-side-solution",
+    "id": "fe1d7c24-f01c-4460-8b7f-6e7a4e77b7db",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "getDataInTable description"
+      },
+      "longDescription": {
+        "default": "getDataInTable description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "get-data-in-table Feature",
+        "description": "The feature that activates elements of the get-data-in-table solution.",
+        "id": "3f4dbc65-9b23-410d-b3ca-eaaf2eaf50b4",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/get-data-in-table.sppkg"
+  }
+}

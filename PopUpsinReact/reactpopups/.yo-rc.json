@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "reactpopups",
+    "libraryId": "0143f9f6-42cc-4e86-b1fc-7cd6edaa8dda",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "reactpopups",
+    "solutionShortDescription": "reactpopups description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

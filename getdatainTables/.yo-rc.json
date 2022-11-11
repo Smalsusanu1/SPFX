@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "tables",
+    "libraryId": "d1378adf-c76f-485d-9572-21f0bf7a6d95",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "tables",
+    "solutionShortDescription": "tables description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

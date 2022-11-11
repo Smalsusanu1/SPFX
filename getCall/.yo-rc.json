@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "getcall",
+    "libraryId": "ea115516-d115-40ac-b069-a733123a9df7",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "getcall'",
+    "solutionShortDescription": "getcall' description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "first-web-p-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/firstWebP/FirstWebPWebPart.js",
+          "manifest": "./src/webparts/firstWebP/FirstWebPWebPart.manifest.json"
+        }
+      ]
+    },
+    "second-web-p-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/secondWebP/SecondWebPWebPart.js",
+          "manifest": "./src/webparts/secondWebP/SecondWebPWebPart.manifest.json"
+        }
+      ]
+    },
+    "third-web-p-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/thirdWebP/ThirdWebPWebPart.js",
+          "manifest": "./src/webparts/thirdWebP/ThirdWebPWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": {
+      "path": "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js",
+      "globalName": "jQuery"
+    }
+  },
+  "localizedResources": {
+    "FirstWebPWebPartStrings": "lib/webparts/firstWebP/loc/{locale}.js",
+    "SecondWebPWebPartStrings": "lib/webparts/secondWebP/loc/{locale}.js",
+    "ThirdWebPWebPartStrings": "lib/webparts/thirdWebP/loc/{locale}.js"
+  }
+}

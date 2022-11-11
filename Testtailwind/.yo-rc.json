@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "testtailwind",
+    "libraryId": "c77a43e2-64ba-4fe0-8a09-d67935a44b97",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "testtailwind",
+    "solutionShortDescription": "testtailwind description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

@@ -1,0 +1,89 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.customform{
+  :global{
+    .button{
+      border-radius: 20px;
+      margin-left: 20px;
+      margin-top: 30px;
+      color: blue !important;
+    }  
+    .ms-choiceFieldLabel{
+      color: white !important;
+    }
+    .ms-Checkbox-checkbox{
+      border-color: white !important;
+    }
+    .ms-Checkbox-text{
+      color: white !important;
+    }
+    .form-validation{
+      display: none !important;
+      margin: 5px !important;
+    }
+  }
+  .grid{
+    @include ms-Grid;
+  }
+  .gridRow{
+    @include ms-Grid-row;
+  }
+  .smallCol{
+    @include ms-Grid-col;
+    @include ms-lg2;
+    @include ms-sm6;
+    @include ms-md4;
+    color: white !important;
+  }
+  .largeCol{
+    @include ms-Grid-col;
+    @include ms-lg10;
+    @include ms-sm6;
+    @include ms-md8;
+    color: white !important;
+    padding: 20px !important;
+  }
+  .validation{
+
+    color: red !important;
+  }
+  
+  .button{
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+    color: blue !important;
+  }
+}
+.dataIntoBsTable {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcomeImage {
+  width: 100%;
+  max-width: 420px;
+}
+
+.links {
+  a {
+    text-decoration: none;
+    color: "[theme:link, default:#03787c]";
+    color: var(--link); // note: CSS Custom Properties support is limited to modern browsers only
+
+    &:hover {
+      text-decoration: underline;
+      color: "[theme:linkHovered, default: #014446]";
+      color: var(--linkHovered); // note: CSS Custom Properties support is limited to modern browsers only
+    }
+  }
+}

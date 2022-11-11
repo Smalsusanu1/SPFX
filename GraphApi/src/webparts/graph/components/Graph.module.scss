@@ -1,0 +1,16 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.ms-Grid {
+  box-sizing: border-box;
+  padding: 0 5px;
+}
+
+.ms-Grid-row {
+background: 
+#c5c5c5;
+}
+
+.ms-Grid-col {
+padding-left: 15px;
+padding-right: 15px;
+}

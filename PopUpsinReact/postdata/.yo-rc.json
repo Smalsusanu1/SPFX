@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "postdata",
+    "libraryId": "0924c75f-a999-4264-8879-e3ded0442a84",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "postdata",
+    "solutionShortDescription": "postdata description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

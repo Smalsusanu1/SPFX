@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "tabbing-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/tabbing/TabbingWebPart.js",
+          "manifest": "./src/webparts/tabbing/TabbingWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TabbingWebPartStrings": "lib/webparts/tabbing/loc/{locale}.js"
+  }
+}

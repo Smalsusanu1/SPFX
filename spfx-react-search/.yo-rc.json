@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "spfx-react-search",
+    "libraryId": "5e7810a2-b4dc-4f4d-988b-f1ba3df93b3b",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "spfx-react-search",
+    "solutionShortDescription": "spfx-react-search description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

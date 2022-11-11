@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "next-global-search-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/nextGlobalSearch/NextGlobalSearchWebPart.js",
+          "manifest": "./src/webparts/nextGlobalSearch/NextGlobalSearchWebPart.manifest.json"
+        }
+      ]
+    },
+    "tableinreact-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/tableinreact/TableinreactWebPart.js",
+          "manifest": "./src/webparts/tableinreact/TableinreactWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "NextGlobalSearchWebPartStrings": "lib/webparts/nextGlobalSearch/loc/{locale}.js",
+    "TableinreactWebPartStrings": "lib/webparts/tableinreact/loc/{locale}.js"
+  }
+}

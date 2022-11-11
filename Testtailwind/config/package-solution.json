@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "testtailwind-client-side-solution",
+    "id": "c77a43e2-64ba-4fe0-8a09-d67935a44b97",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "testtailwind description"
+      },
+      "longDescription": {
+        "default": "testtailwind description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "testtailwind Feature",
+        "description": "The feature that activates elements of the testtailwind solution.",
+        "id": "e2fb5c3b-d0f8-4db7-877e-ad8b840ac597",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/testtailwind.sppkg"
+  }
+}

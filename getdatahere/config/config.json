@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "gettingdata-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/gettingdata/GettingdataWebPart.js",
+          "manifest": "./src/webparts/gettingdata/GettingdataWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GettingdataWebPartStrings": "lib/webparts/gettingdata/loc/{locale}.js"
+  }
+}

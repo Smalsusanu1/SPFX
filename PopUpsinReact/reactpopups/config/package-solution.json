@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "reactpopups-client-side-solution",
+    "id": "0143f9f6-42cc-4e86-b1fc-7cd6edaa8dda",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "reactpopups description"
+      },
+      "longDescription": {
+        "default": "reactpopups description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "reactpopups Feature",
+        "description": "The feature that activates elements of the reactpopups solution.",
+        "id": "421df066-d12c-4f29-9f0d-1374034e8c75",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/reactpopups.sppkg"
+  }
+}

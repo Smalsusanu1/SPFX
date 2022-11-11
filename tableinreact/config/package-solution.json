@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "tableinreact-client-side-solution",
+    "id": "60635331-9efd-4bb5-89cc-8ebd17450031",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "tableinreact description"
+      },
+      "longDescription": {
+        "default": "tableinreact description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "tableinreact Feature",
+        "description": "The feature that activates elements of the tableinreact solution.",
+        "id": "c8668bd0-0ad0-477e-87a4-810f142c3c07",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/tableinreact.sppkg"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "getdatahere",
+    "libraryId": "c5c7a776-90cc-43c9-88f8-4ae4ea484e46",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "getdatahere",
+    "solutionShortDescription": "getdatahere description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
